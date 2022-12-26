@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://cdn.dribbble.com/users/391100/screenshots/11184428/media/9bdea2b99534795daaaf7b46faaaa1e0.jpg?compress=1&resize=400x300"
+            class="logo"
+            alt=""
+          />
+          <ul id="sidemenu">
+            <li>
+              <a href="#header"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#services"> Portfolio </a>
+            </li>
+            <i class="fa-sharp fa-solid fa-x" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX designer</p>
+          <h1>
+            Some <span> Name </span> <br />
+            Goes Here
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://i.pinimg.com/564x/ca/ce/25/cace257bc69b0a79e4eaf25b82490c7b.jpg"
+              alt=""
+              id="profile-pic"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              laborum id. Exercitationem distinctio eaque, eligendi quibusdam
+              temporibus quasi fugit non soluta in amet iure voluptatum laborum
+              nulla vero rerum asperiores! Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Hic dolorum culpa expedita, aliquam
+              soluta nobis? Ullam numquam beatae cumque, aut architecto,
+              exercitationem unde ut aperiam velit, iste distinctio atque
+              doloremque! Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Qui sequi numquam a consequatur corporis nemo, velit quos
+              minus maxime iusto sit laboriosam, culpa aut illum soluta
+              repellendus. Ex, quod necessitatibus.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span> IU/UX </span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span> Web Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span> Work Exp </span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span> Web Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Projects</span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span> Web Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />
+                  Developer Web/App interfaces
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div class="services-list-div">
+            <h2>Web Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+          <div class="services-list-div">
+            <h2>UI Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+          <div class="services-list-div">
+            <h2>Back Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://i.pinimg.com/564x/ca/ce/25/cace257bc69b0a79e4eaf25b82490c7b.jpg"
+            />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Impedit, officia adipisci quo quis atque veniam unde
+                voluptatibus a animi ducimus, reprehenderit quam nostrum
+                assumenda consectetur provident voluptates iste explicabo.
+                Cupiditate!
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://i.pinimg.com/564x/ca/ce/25/cace257bc69b0a79e4eaf25b82490c7b.jpg"
+            />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Impedit, officia adipisci quo quis atque veniam unde
+                voluptatibus a animi ducimus, reprehenderit quam nostrum
+                assumenda consectetur provident voluptates iste explicabo.
+                Cupiditate!
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://i.pinimg.com/564x/ca/ce/25/cace257bc69b0a79e4eaf25b82490c7b.jpg"
+            />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Impedit, officia adipisci quo quis atque veniam unde
+                voluptatibus a animi ducimus, reprehenderit quam nostrum
+                assumenda consectetur provident voluptates iste explicabo.
+                Cupiditate!
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/dbf057c199.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabName) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+      var sidemenu = document.getElementById("sidemenu")
+      function openMenu(){
+        sidemenu.style.right = "0"
+      }
+      function closeMenu(){
+        sidemenu.style.right = "-200px"
+    }
+    </script>
+  </body>
+</html>
