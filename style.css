@@ -14,7 +14,7 @@ body {
 
 #header {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     /* background-image: url(/images/47698.png); */
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
