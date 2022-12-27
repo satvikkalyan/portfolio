@@ -11,11 +11,7 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img
-            src="https://cdn.dribbble.com/users/391100/screenshots/11184428/media/9bdea2b99534795daaaf7b46faaaa1e0.jpg?compress=1&resize=400x300"
-            class="logo"
-            alt=""
-          />
+          <img src="images/Logo.png" class="logo" alt="" />
           <ul id="sidemenu">
             <li>
               <a href="#header"> Home </a>
@@ -24,17 +20,17 @@
               <a href="#about"> About </a>
             </li>
             <li>
-              <a href="#services"> Portfolio </a>
+              <a href="#portfolio"> Portfolio </a>
             </li>
             <i class="fa-sharp fa-solid fa-x" onclick="closeMenu()"></i>
           </ul>
           <i class="fa-solid fa-bars" onclick="openMenu()"></i>
         </nav>
         <div class="header-text">
-          <p>UI/UX designer</p>
+          <p>Full Stack Developer</p>
           <h1>
-            Some <span> Name </span> <br />
-            Goes Here
+            <span> Satvik Kalyan </span> <br />
+            Gundu
           </h1>
         </div>
       </div>
@@ -44,26 +40,36 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img
-              src="https://i.pinimg.com/564x/ca/ce/25/cace257bc69b0a79e4eaf25b82490c7b.jpg"
-              alt=""
-              id="profile-pic"
-            />
+            <img src="/images/no_bg.png" alt="" id="profile-pic" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-              laborum id. Exercitationem distinctio eaque, eligendi quibusdam
-              temporibus quasi fugit non soluta in amet iure voluptatum laborum
-              nulla vero rerum asperiores! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Hic dolorum culpa expedita, aliquam
-              soluta nobis? Ullam numquam beatae cumque, aut architecto,
-              exercitationem unde ut aperiam velit, iste distinctio atque
-              doloremque! Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Qui sequi numquam a consequatur corporis nemo, velit quos
-              minus maxime iusto sit laboriosam, culpa aut illum soluta
-              repellendus. Ex, quod necessitatibus.
+              👋🏽 Hi there! My name is Satvik Kalyan Gundu, and I am currently
+              pursuing a 🎓 Master's degree in Computer Science at Indiana
+              University Bloomington, with an expected graduation date of May
+              2024.<br />
+              <br />
+              I am a full stack developer with ReactJS, Angular, and Spring Boot
+              expertise. I am skilled in various technologies, including AWS,
+              Kubernetes, mobile application development, Spark, PL/SQL, Python,
+              and algorithms.<br /><br />
+              I am passionate about solving complex problems, learning new
+              technologies, and constantly improving my skills. I am a fast
+              learner, a hard worker, and always eager to take on new
+              challenges.
+              <br /><br />
+              I am proud to have co-authored a research paper titled "A
+              Comprehensive Review on Applications, Techniques, and Frameworks
+              of Deep Learning," which was published in the International
+              Journal of Scientific Research in Science and Technology (IJSRST).
+              You can read more about my research
+              <a href="https://ijsrst.com/IJSRST2074205">here </a> <br /><br />
+              I am currently seeking Software Engineering internships for Summer
+              2023, and I am excited to continue learning and growing as a
+              developer. I am a tech enthusiast at heart and always looking for
+              new opportunities to get involved in the tech industry. Thank you
+              for considering my profile. I hope to connect with you soon!
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -77,16 +83,33 @@
             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
-                  <span> IU/UX </span><br />
-                  Developer Web/App interfaces
+                  <span> Full Stack Developer </span><br />
+                  Expertise in Python, Java, ReactJS, and more, with a focus on
+                  building efficient and scalable applications.
                 </li>
                 <li>
-                  <span> Web Development</span><br />
-                  Developer Web/App interfaces
+                  <span> Data-Driven Development</span><br />
+                  Proficiency in Python libraries such as NumPy, Pandas, and
+                  Scikit-Learn, along with experience in TensorFlow and machine
+                  learning.
                 </li>
                 <li>
-                  <span>App Development</span><br />
-                  Developer Web/App interfaces
+                  <span>Cloud-Native Applications</span><br />
+                  Skilled in developing and deploying applications on cloud
+                  platforms such as AWS and Kubernetes, with a CKAD
+                  certification to back it up.
+                </li>
+                <li>
+                  <span>Agile Development</span><br />
+                  Proficiency in agile methodologies, with experience in tools
+                  such as JIRA and Jenkins for smooth team collaboration and
+                  delivery.
+                </li>
+                <li>
+                  <span>Web and Mobile Development</span><br />
+                  Expertise in HTML/CSS, JavaScript, React and Angular for building
+                  dynamic and responsive web applications, as well as experience
+                  in mobile app development.
                 </li>
               </ul>
             </div>
@@ -164,7 +187,7 @@
         </div>
       </div>
     </div>
-    <div class="portfolio">
+    <div id="portfolio" class="portfolio">
       <div class="container">
         <h1 class="sub-title">Portfolio</h1>
         <div class="work-list">
@@ -236,13 +259,13 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabName).classList.add("active-tab");
       }
-      var sidemenu = document.getElementById("sidemenu")
-      function openMenu(){
-        sidemenu.style.right = "0"
+      var sidemenu = document.getElementById("sidemenu");
+      function openMenu() {
+        sidemenu.style.right = "0";
       }
-      function closeMenu(){
-        sidemenu.style.right = "-200px"
-    }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
   </body>
 </html>

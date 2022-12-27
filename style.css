@@ -14,7 +14,7 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     /* background-image: url(/images/47698.png); */
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-    width: 140px;
+    width: 250px;
 }
 
 .profile-pic {
@@ -49,14 +49,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    position: relative
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+    font-size: 20px ;
     position: relative
 }
 
@@ -106,10 +99,15 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
 }
-
+.about-col-2 p a {
+    text-decoration: none;
+    color: #ff004f;
+    font-size: 18px;
+    font-weight: 300;
+}
 
 .about-col-2 {
     flex-basis: 60%;
@@ -290,8 +288,13 @@ nav .fa-solid{
     /* #header {
         background-image: url(/images/47698.png);
     } */
+
+    #header {
+        height: 30vh;
+    }
+
     .header-text {
-        margin-top: 100%;
+        margin-top: 30%;
         font-size: 16px;
     }
 
