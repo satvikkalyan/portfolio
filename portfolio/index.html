@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satvik Kalyan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logo.png" class="logo" alt="" />
+          <ul id="sidemenu">
+            <li>
+              <a href="#header"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#portfolio"> Projects </a>
+            </li>
+            <i class="fa-sharp fa-solid fa-x" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            <span> Satvik Kalyan </span> <br />
+            Gundu
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/no_bg.png" alt="" id="profile-pic" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              👋🏽 Hi there! My name is Satvik Kalyan Gundu, and I am currently
+              pursuing a 🎓 Master's degree in Computer Science at Indiana
+              University Bloomington, with an expected graduation date of May
+              2024.<br />
+              <br />
+              I am a full stack developer with ReactJS, Angular, and Spring Boot
+              expertise. I am skilled in various technologies, including AWS,
+              Kubernetes, mobile application development, Spark, PL/SQL, Python,
+              and algorithms.<br /><br />
+              I am passionate about solving complex problems, learning new
+              technologies, and constantly improving my skills. I am a fast
+              learner, a hard worker, and always eager to take on new
+              challenges.
+              <br /><br />
+              I am proud to have co-authored a research paper titled "A
+              Comprehensive Review on Applications, Techniques, and Frameworks
+              of Deep Learning," which was published in the International
+              Journal of Scientific Research in Science and Technology (IJSRST).
+              You can read more about my research
+              <a href="https://ijsrst.com/IJSRST2074205">here </a> <br /><br />
+              I am currently seeking Software Engineering internships for Summer
+              2023, and I am excited to continue learning and growing as a
+              developer. I am a tech enthusiast at heart and always looking for
+              new opportunities to get involved in the tech industry. Thank you
+              for considering my profile. I hope to connect with you soon!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span> Full Stack Developer </span><br />
+                  Expertise in Python, Java, ReactJS, and more, with a focus on
+                  building efficient and scalable applications.
+                </li>
+                <li>
+                  <span> Data-Driven Development</span><br />
+                  Proficiency in Python libraries such as NumPy, Pandas, and
+                  Scikit-Learn, along with experience in TensorFlow and machine
+                  learning.
+                </li>
+                <li>
+                  <span>Cloud-Native Applications</span><br />
+                  Skilled in developing and deploying applications on cloud
+                  platforms such as AWS and Kubernetes, with a CKAD
+                  certification to back it up.
+                </li>
+                <li>
+                  <span>Agile Development</span><br />
+                  Proficiency in agile methodologies, with experience in tools
+                  such as JIRA and Jenkins for smooth team collaboration and
+                  delivery.
+                </li>
+                <li>
+                  <span>Web and Mobile Development</span><br />
+                  Expertise in HTML/CSS, JavaScript, React and Angular for
+                  building dynamic and responsive web applications, as well as
+                  experience in mobile app development.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>
+                    JPMorgan Chase & Co. : Software Engineer II, August 2020 -
+                    July 2022</span
+                  ><br />
+                  Developed cloud-compatible versions of legacy applications and
+                  integrated Kubernetes and Jenkins for scaling, build, test,
+                  and deployment pipelines. Led the development team for an
+                  internal Technology and Communications Portal and mentored
+                  interns on AWS and ReactJS.
+                </li>
+                <li>
+                  <span
+                    >JPMorgan Chase & Co. : Software Engineer Intern, January
+                    2020 - June 2020</span
+                  ><br />
+                  Developed and delivered CFL reports, migrated PLSQL codebase
+                  to Java Spark, and built a web application for an NGO.
+                  Coordinated with business teams to refine product requirements
+                  and improve delivery per sprint.
+                </li>
+                <li>
+                  <span
+                    >Chaitanya Bharathi Institute of Technology: Software
+                    Engineering Teaching Assistant, January 2019 - June
+                    2019</span
+                  ><br />
+                  Assisted in the development and delivery of recitation
+                  lectures, facilitated review sessions, and graded weekly
+                  quizzes for a Software Engineering course.
+                </li>
+                <li>
+                  <span
+                    >Android Developer, RateMySinging: Internship, June 2019 -
+                    July 2019</span
+                  ><br />
+                  Developed and implemented a Mobile Interface that displayed a
+                  list of users from Firebase and allowed users to click and
+                  open individual profiles.
+                </li>
+                <li>
+                  <span
+                    >Penetration Tester, Spyry Technologies: Internship, May
+                    2018 - June 2018</span
+                  ><br />
+                  Trained in Vulnerability Assessment and Penetration Testing of
+                  Web Applications using tools such as BurpSuite and Wireshark.
+                  Performed testing on a website.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Indiana University Bloomington</span><br />
+                  Master's degree in Computer Science, graduating May 2024
+                  (expected). GPA of 4.0/4.0.
+                </li>
+                <li>
+                  <span> Chaitanya Bharathi Institute of Technology</span><br />
+                  Bachelor's degree in Computer Science, graduated June 2020.
+                  GPA of 3.8/4.0.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div class="services-list-div">
+            <h2>Web Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+          <div class="services-list-div">
+            <h2>UI Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+          <div class="services-list-div">
+            <h2>Back Dev</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              fugit placeat at voluptatem deleniti. Fugit, iusto. Iusto nulla,
+              cum autem veritatis laudantium a maiores saepe assumenda veniam
+              ipsa dignissimos fuga?
+            </p>
+            <a>Learn More!</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="portfolio" class="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/dsrv.png" />
+            <div class="layer">
+              <h3>DSRV Inc – Hotel Booking System</h3>
+              <p>
+                Developed a responsive website with a user-friendly interface
+                for booking properties, including options for single or shared
+                rooms. Implemented user role management and integrated Google
+                OAuth and Firebase for user authentication using mobile numbers
+                and Google accounts. (ReactJS, AWS, Heroku, Spring Boot)
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/java.jpeg" />
+            <div class="layer">
+              <h3>Timezone Impact Analyzing tool</h3>
+              <p>
+                Developed a Java tool to examine database objects and PLSQL code
+                to identify any timezone impacts. Generated reports for over
+                2300 database objects and over 50,000 lines of code using the
+                tool, resulting in a significant reduction of approximately 3700
+                hours of manual work. 
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/dga.png" />
+            <div class="layer">
+              <h3>Computational Approach for Disease-Gene Associations</h3>
+              <p>
+                Implemented a computational method using Genetic Algorithms and
+                protein-protein interaction networks (PPI) to identify
+                disease-gene associations, including 76670 associations.
+                Predicted genes associated with breast cancer with an accuracy
+                of 93.7%.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/portfolio.png" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>
+                Created a responsive portfolio website using HTML, CSS, and JavaScript, allowing for seamless viewing on both desktop and mobile devices.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/dbf057c199.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabName) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+      var sidemenu = document.getElementById("sidemenu");
+      function openMenu() {
+        sidemenu.style.right = "0";
+      }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
