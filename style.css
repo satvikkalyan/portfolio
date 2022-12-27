@@ -108,6 +108,18 @@ nav ul li a:hover::after {
     font-size: 18px;
     font-weight: 300;
 }
+.about-col-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.about-col-2 p a {
+    text-decoration: none;
+    color: #ff004f;
+    font-size: 18px;
+    font-weight: 300;
+}
 
 .about-col-2 {
     flex-basis: 60%;
@@ -344,7 +356,10 @@ nav .fa-solid{
         margin-bottom: 30px;
     }
 
-    .about-col-2 {
+    .about-col-2 p{
+        font-size: 14px;
+    }
+    .about-col-2 p a{
         font-size: 14px;
     }
 
