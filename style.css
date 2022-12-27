@@ -367,4 +367,21 @@ nav .fa-solid{
         font-size: 15px;
         margin-right: 20px;
     }
+    .work h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .work p {
+        font-size: 10px;
+    }
+    .layer a {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    .layer h3 {
+        margin-bottom: 9px;
+    }
 }
