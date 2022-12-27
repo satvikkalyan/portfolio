@@ -270,14 +270,14 @@ nav ul li a:hover::after {
 }
 
 .layer a {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #ff004f;
     text-decoration: none;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 15px;
+    line-height: 30px;
     background-color: white;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
 }
